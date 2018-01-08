@@ -1,0 +1,55 @@
+body {
+  background: #5b708c; }
+
+h1 {
+  font-family: Calibri, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff; }
+
+#carousel {
+  width: 600px;
+  height: 400px;
+  box-shadow: 0 0 10px #000;
+  overflow: hidden;
+  margin: 0 auto;
+  position: relative; }
+  #carousel ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 3000px; }
+    #carousel ul li {
+      width: 600px;
+      height: 400px;
+      padding: 0;
+      margin: 0;
+      float: left; }
+      #carousel ul li img {
+        width: 100%; }
+  #carousel a {
+    font-size: 34px;
+    color: #fff;
+    padding: 15px;
+    position: absolute;
+    top: 40%;
+    font-weight: bold;
+    cursor: pointer; }
+    #carousel a:hover {
+      color: #a6a7a8; }
+  #carousel .prev {
+    left: 0; }
+  #carousel .next {
+    right: 0; }
+  #carousel div {
+    position: absolute;
+    bottom: 0;
+    left: 36.5%;
+    font-size: 30px;
+    color: #fff;
+    padding-bottom: 10px;
+    cursor: default; }
+    #carousel div span {
+      padding-right: 10px; }
+
+/*# sourceMappingURL=style.css.map */
